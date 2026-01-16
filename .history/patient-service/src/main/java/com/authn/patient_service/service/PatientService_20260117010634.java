@@ -23,7 +23,7 @@ public class PatientService {
         this.patientRepository = patientRepository;
     }
 
-    public List<PatientResponseDTO> getPatients() {
+    public List<PatientResponseDTO> getPatients () {
         List<Patient> patients = patientRepository.findAll();
 
         return patients.stream()
@@ -62,8 +62,10 @@ public class PatientService {
     }
 
     @DeleteMapping
-    public void deletePatient(UUID id) {
+    public void deletePatient(UUID id){
         patientRepository.deleteById(id);
     }
+
+
 
 }
