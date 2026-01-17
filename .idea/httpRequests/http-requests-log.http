@@ -1,4 +1,4 @@
-GRPC localhost:9001/BillingService/CreateBillingAccountGET http://localhost:4000/patients
+GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGET http://localhost:4000/patients
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
