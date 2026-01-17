@@ -1,3 +1,22 @@
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 164
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Authn broo with billing account",
+  "email": "authn@gmail.com",
+  "address": "galle",
+  "dateOfBirth": "2002-07-01",
+  "registeredDate": "2026-07-01"
+}
+
+<> 2026-01-18T000806.200.json
+
+###
+
 GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGET http://localhost:4000/patients
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
 Accept-Encoding: br, deflate, gzip, x-gzip
